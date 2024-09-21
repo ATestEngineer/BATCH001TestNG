@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="4">
+    <test verbose="2" preserve-order="true"
+          name="Classları Paralel Çalıştırma">
+        <classes>
+            <class name="techproed.tests.day21_xmlfiles_paralleltest.C01_ParallelTest"></class>
+            <class name="techproed.tests.day21_xmlfiles_paralleltest.C02_ParallelTest"></class>
+        </classes>
+    </test>
+</suite>

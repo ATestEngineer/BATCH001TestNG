@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 001">
+
+<listeners>
+    <listener class-name="techproed.utilities.ExtentReportsListener"></listener>
+</listeners>
+
+    <test name="US002">
+        <packages>
+            <package name="techproed.tests.practice.classwork"></package>
+        </packages>
+    </test>
+</suite>

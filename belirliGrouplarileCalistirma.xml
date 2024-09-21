@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 001">
+    <test name="Belirli Grouplarda Çalıştırma">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="techproed.tests.*"></package>
+        </packages>
+    </test>
+</suite>

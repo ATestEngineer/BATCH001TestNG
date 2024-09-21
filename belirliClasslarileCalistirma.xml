@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch 001">
+    <test name="Belirli Classlarda Çalıştırma">
+        <classes>
+            <class name="techproed.tests.smoke.C02_PositiveLoginTest"></class>
+            <class name="techproed.tests.day17_annotations.C01_Notasyonlar"></class>
+            <class name="techproed.tests.day18_pom.C03_FirstDriverUsage"></class>
+
+        </classes>
+    </test>
+</suite>
